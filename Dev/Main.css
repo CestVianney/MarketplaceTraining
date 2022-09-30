@@ -1,0 +1,122 @@
+/* 
+--PLAN :
+---MENU
+-----GRAPH ORDERS
+-------GRAPH
+-------ORDERS
+-----PORTFOLIO
+*/
+
+/* 
+-------------------------------------------------------------------------MENU PRINCIPAL & STRUCTURE
+*/
+html{
+    background-color: black;
+    color:aliceblue;
+}
+.menu{
+    border: 1px solid red;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height: 5%;
+}
+.fullStructure{
+    display:column;
+}
+/* 
+-------------------------------------------------------------------------GRAPH ORDERS
+*/
+.graphOrders{
+    display:flex;
+    height:75%
+}
+/* 
+-------------------------------------------------------------------------GRAPH
+*/
+.graph{
+    border: 1px solid brown;
+    height:100%;
+    width: 75%;
+}
+
+.graphBar{
+    display:flex;
+    height:5%;
+    border: 1px solid darkblue;
+    align-items:center;
+}
+
+.graphBarPaire{
+    padding-left:10px;
+    padding-right:10px;
+}
+.grahBarTimeFrame{
+    padding-left:10px;
+    padding-right:10px;
+}
+.graphObject{
+    border: 1px solid pink;
+    height:95%;
+}
+/* 
+-------------------------------------------------------------------------ORDERS
+*/
+.orders{
+    border: 1px solid green;
+    height:100%;
+    width: 25%;
+}
+
+.ordersTitle{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border:1px solid lightblue;
+    height:5%;
+}
+
+.ordersBuySell{
+    border:1px solid lightsalmon;
+    display:flex;
+    justify-content:center;
+    height:5%;
+}
+.ordersBuySellBuy{
+    width:30%;
+    background-color: greenyellow;
+    text-align: center;
+    line-height:50%;
+}
+.ordersBuySellSell{
+    width:30%;
+    background-color:lightcoral;
+    text-align:center;
+    line-height:50%;
+}
+.ordersMontantSolde{
+    border:1px solid greenyellow;
+    height:26%;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.ordersAction{
+    border: 1px solid slateblue;
+    display:flex;
+    justify-content:center;
+}
+.ordersActionAction{
+    width:30%;
+    background-color:skyblue;
+    text-align:center;
+    line-height:50%;
+}
+/* 
+-------------------------------------------------------------------------PORTFOLIO
+*/
+.portFolio{
+    border: 1px solid orange;
+    height: 40%;
+}
